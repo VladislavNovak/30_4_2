@@ -12,10 +12,8 @@ include(FetchContent)
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git GIT_TAG 0817715923c9705e68994eb52ef9df3f6845beba)
 FetchContent_MakeAvailable(cpr)
 
-FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.2/json.tar.xz)
-FetchContent_MakeAvailable(json)
-
-add_executable(30_4_2 main.cpp)
+add_executable(30_4_2 main.cpp
+        src/utilities.cpp
+        headers/utilities.h)
 
 target_link_libraries(30_4_2 PRIVATE cpr::cpr)
-target_link_libraries(30_4_2 PRIVATE nlohmann_json::nlohmann_json)

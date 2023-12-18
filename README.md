@@ -23,10 +23,12 @@
 
 </details>
 
-<details open>
+<details>
 <summary><span style="color:tomato;font-size:12px">INFO</span></summary>
 
-[//]: # (<a href="" style="margin-left:16px">REF</a>)
+<a href="https://www.httpbin.org/#/Response_formats/get_html" style="margin-left:16px">httpbin</a>
+
+<a href="https://www.cyberforum.ru/cpp-beginners/thread626030.html" style="margin-left:16px">Вытащить текст между тегов html</a>
 
 </details>
 </details>
